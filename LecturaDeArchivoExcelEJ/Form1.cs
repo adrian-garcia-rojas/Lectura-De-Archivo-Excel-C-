@@ -65,10 +65,6 @@ namespace LecturaDeArchivoExcelEJ
             Excel.Worksheet excelHoja;
             Excel.Range excelRango;
 
-
-            Int32 rowCnt = 0;
-            Int32 colCnt = 0;
-
             try
             {
                 excelApplicacion = new Excel.Application();
@@ -78,15 +74,30 @@ namespace LecturaDeArchivoExcelEJ
                 excelRango = excelHoja.UsedRange;
                 Int32 rangoEnColumnas = excelRango.Columns.Count;
                 Int32 rangoEnFilas = excelRango.Rows.Count;
-                
+                String valorDeCelda = "";
+                String cadena = "";
+
+                label4.Text = "Filas: " + rangoEnFilas + ", Columnas: " + rangoEnColumnas;
 
                 if (rangoEnFilas > 0 && rangoEnColumnas > 0)
-                {
+                {                 
+                    for (int posicionFila = 1; posicionFila <= rangoEnFilas; posicionFila++)
+                    {
+                        for (int posicionColumna = 1; posicionColumna <= rangoEnColumnas; posicionColumna++)
+                        {
+                            valorDeCelda = (string)(Convert.ToString(((excelRango.Cells[posicionFila, posicionColumna] as Excel.Range).Value2)));                            
+                            label2.Text = "Dato: " + valorDeCelda;
+                            cadena = cadena + valorDeCelda + " ";
+                            if (posicionColumna == 3)
+                            {
+                                richTextBox1.Text += cadena + Environment.NewLine;
+                                cadena = "";
+                            }
+                        }
 
-                    String valorDeCelda = "";
-                    
-
-                    
+                        label3.Text = "Filas: " + posicionFila + " de " + rangoEnFilas;
+                    }
+                    MessageBox.Show("Recorrido finalizado");
                 }
                 else
                 {

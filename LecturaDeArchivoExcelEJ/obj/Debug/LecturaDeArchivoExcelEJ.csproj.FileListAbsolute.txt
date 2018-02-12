@@ -7,3 +7,12 @@ C:\Users\win7\Documents\Visual Studio 2013\Projects\LecturaDeArchivoExcelEJ\Lect
 C:\Users\win7\Documents\Visual Studio 2013\Projects\LecturaDeArchivoExcelEJ\LecturaDeArchivoExcelEJ\obj\Debug\LecturaDeArchivoExcelEJ.csproj.GenerateResource.Cache
 C:\Users\win7\Documents\Visual Studio 2013\Projects\LecturaDeArchivoExcelEJ\LecturaDeArchivoExcelEJ\obj\Debug\LecturaDeArchivoExcelEJ.exe
 C:\Users\win7\Documents\Visual Studio 2013\Projects\LecturaDeArchivoExcelEJ\LecturaDeArchivoExcelEJ\obj\Debug\LecturaDeArchivoExcelEJ.pdb
+D:\vaio\Documents\GitHub\LecturaDeArchivoExcelEJ\LecturaDeArchivoExcelEJ\bin\Debug\LecturaDeArchivoExcelEJ.exe.config
+D:\vaio\Documents\GitHub\LecturaDeArchivoExcelEJ\LecturaDeArchivoExcelEJ\obj\Debug\LecturaDeArchivoExcelEJ.exe
+D:\vaio\Documents\GitHub\LecturaDeArchivoExcelEJ\LecturaDeArchivoExcelEJ\obj\Debug\LecturaDeArchivoExcelEJ.pdb
+D:\vaio\Documents\GitHub\LecturaDeArchivoExcelEJ\LecturaDeArchivoExcelEJ\bin\Debug\LecturaDeArchivoExcelEJ.exe
+D:\vaio\Documents\GitHub\LecturaDeArchivoExcelEJ\LecturaDeArchivoExcelEJ\bin\Debug\LecturaDeArchivoExcelEJ.pdb
+D:\vaio\Documents\GitHub\LecturaDeArchivoExcelEJ\LecturaDeArchivoExcelEJ\obj\Debug\LecturaDeArchivoExcelEJ.csprojResolveAssemblyReference.cache
+D:\vaio\Documents\GitHub\LecturaDeArchivoExcelEJ\LecturaDeArchivoExcelEJ\obj\Debug\LecturaDeArchivoExcelEJ.Form1.resources
+D:\vaio\Documents\GitHub\LecturaDeArchivoExcelEJ\LecturaDeArchivoExcelEJ\obj\Debug\LecturaDeArchivoExcelEJ.Properties.Resources.resources
+D:\vaio\Documents\GitHub\LecturaDeArchivoExcelEJ\LecturaDeArchivoExcelEJ\obj\Debug\LecturaDeArchivoExcelEJ.csproj.GenerateResource.Cache
